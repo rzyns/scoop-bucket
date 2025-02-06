@@ -9,7 +9,10 @@
             "hash": "e0f40a41869187b523fb9a694e57dbb049e50120c523d87efc6638781018fb37"
         }
     },
-    "bin": "Grabber-cli.exe",
+    "bin": ["Grabber-cli.exe", "Grabber.exe"],
+    "shortcuts": [
+        ["Grabber.exe", "Grabber"]
+    ],
     "checkver": {
         "github" :"https://github.com/Bionus/imgbrd-grabber"
     }
