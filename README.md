@@ -10,12 +10,14 @@ A personal [Scoop](https://scoop.sh) bucket for Windows apps, including projects
 scoop bucket add rzyns https://github.com/rzyns/scoop-bucket
 scoop install rzyns/diffusion-toolkit
 scoop install rzyns/imgbrd-grabber
+scoop install rzyns/skillranker
 ```
 
 | Package | Description |
 | --- | --- |
 | `diffusion-toolkit` | Metadata viewer and organizer for AI-generated images. Requires the [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). |
 | `imgbrd-grabber` | Customizable imageboard downloader, with GUI and command-line tools. |
+| `skillranker` | `sr`, which recommends the most useful agent skills for the next step of a coding-agent session. Ranking requires a [TypeSafe.ai](https://console.typesafe.ai) API key (`TYPESAFE_API_KEY`). |
 
 Update installed apps with `scoop update *`.
 
