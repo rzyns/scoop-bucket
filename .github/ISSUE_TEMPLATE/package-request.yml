@@ -14,11 +14,11 @@ body:
     label: Criteria
     description: For a package to be acceptable in this bucket, it should be
     options:
-    - label: Criteria 1
+    - label: A Windows release is available from the project's official source.
       required: true
-    - label: Criteria 2
+    - label: The release has a stable, versioned download URL.
       required: true
-    - label: Criteria 3
+    - label: The project's license permits its intended use and distribution.
       required: true
 - type: input
   attributes:
