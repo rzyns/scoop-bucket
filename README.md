@@ -11,12 +11,16 @@ scoop bucket add rzyns https://github.com/rzyns/scoop-bucket
 scoop install rzyns/diffusion-toolkit
 scoop install rzyns/imgbrd-grabber
 scoop install rzyns/skillranker
+scoop install rzyns/beadbox
+scoop install rzyns/beadspec
 ```
 
 | Package | Description |
 | --- | --- |
 | `diffusion-toolkit` | Metadata viewer and organizer for AI-generated images. Requires the [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). |
 | `imgbrd-grabber` | Customizable imageboard downloader, with GUI and command-line tools. |
+| `beadbox` | Desktop interface for Beads issue tracking, with Windows fixes from the rzyns fork. Requires `bd` and WebView2. |
+| `beadspec` | Desktop GUI for Beads and OpenSpec, with Windows project-path fixes from the rzyns fork. Requires `bd` 1.3+ and WebView2. |
 | `skillranker` | `sr`, which recommends the most useful agent skills for the next step of a coding-agent session. Ranking requires a [TypeSafe.ai](https://console.typesafe.ai) API key (`TYPESAFE_API_KEY`). |
 
 Update installed apps with `scoop update *`.
