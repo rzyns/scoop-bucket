@@ -1,5 +1,5 @@
 {
-    "version": "0.33.0-rzyns.1",
+    "version": "0.33.0-rzyns.2",
     "description": "Desktop interface for Beads issue tracking, with Windows compatibility fixes from the rzyns fork.",
     "homepage": "https://github.com/rzyns/beadbox",
     "license": "MIT",
@@ -13,8 +13,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rzyns/beadbox/releases/download/scoop-v0.33.0-rzyns.1/beadbox_0.33.0-rzyns.1_windows_x64.zip",
-            "hash": "e7b9f781415fd5a27e146f3b6e6534043ad6751588eb3c9189d1e2c803c93ba8"
+            "url": "https://github.com/rzyns/beadbox/releases/download/scoop-v0.33.0-rzyns.2/beadbox_0.33.0-rzyns.2_windows_x64.zip",
+            "hash": "25d2f804343634aad8eed3e967a7061574fe9d55d3dea7154e1f80d82aa9023a"
         }
     },
     "shortcuts": [

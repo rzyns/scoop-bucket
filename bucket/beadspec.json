@@ -1,5 +1,5 @@
 {
-    "version": "0.1.4-rzyns.1",
+    "version": "0.1.4-rzyns.2",
     "description": "Desktop GUI for Beads and OpenSpec, with Windows project-path fixes from the rzyns fork.",
     "homepage": "https://github.com/rzyns/BeadSpec",
     "license": "MIT",
@@ -13,8 +13,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rzyns/BeadSpec/releases/download/scoop-v0.1.4-rzyns.1/beadspec_0.1.4-rzyns.1_windows_x64.zip",
-            "hash": "61b832d90b6cc0f9b00e3d677d0da1233fb0f5d720855bb5984c32c848c5378c"
+            "url": "https://github.com/rzyns/BeadSpec/releases/download/scoop-v0.1.4-rzyns.2/beadspec_0.1.4-rzyns.2_windows_x64.zip",
+            "hash": "187d980e397a74f319ed5a5b2e7cfaa916b32181acc1b7fbe274f048b783adf7"
         }
     },
     "shortcuts": [
