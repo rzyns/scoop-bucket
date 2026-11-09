@@ -16,7 +16,7 @@
             "hash": "d2f18ba8a58e22a3f3adc8a1507f720d771250a7a1bd103babc08cb5fd4bfb73"
         }
     },
-    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",
+    "pre_install": "@('\u0024PLUGINSDIR', 'uninstall.exe') | ForEach-Object { \u0024path = Join-Path \u0024dir \u0024_; if (Test-Path -LiteralPath \u0024path) { Remove-Item -LiteralPath \u0024path -Force -Recurse } }",
     "bin": "skills-manager-cli.exe",
     "shortcuts": [
         [
