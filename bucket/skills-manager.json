@@ -1,0 +1,37 @@
+{
+    "version": "1.44.0",
+    "description": "Manage, sync, and organize AI agent skills across coding tools.",
+    "homepage": "https://github.com/forserial/skills-manager",
+    "license": "MIT",
+    "notes": [
+        "Requires Microsoft Edge WebView2 Runtime.",
+        "Use Scoop to update this installation."
+    ],
+    "suggest": {
+        "Microsoft Edge WebView2": "extras/webview2"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/forserial/skills-manager/releases/download/v1.44.0/skills-manager_1.44.0_x64-setup.exe#/dl.7z",
+            "hash": "d2f18ba8a58e22a3f3adc8a1507f720d771250a7a1bd103babc08cb5fd4bfb73"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse",
+    "bin": "skills-manager-cli.exe",
+    "shortcuts": [
+        [
+            "skills-manager.exe",
+            "Skills Manager"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/forserial/skills-manager"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/forserial/skills-manager/releases/download/v$version/skills-manager_$version_x64-setup.exe#/dl.7z"
+            }
+        }
+    }
+}
